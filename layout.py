@@ -324,10 +324,10 @@ def main():
 			
 			sys.exit()
 		elif o in ("-o", "--option"):
-			option = a
+			option_ = a
 
 		elif o in ("-p", "--path"):
-			path = a
+			path_ = a
 		else:
 			assert False, "unhandled option"
 
